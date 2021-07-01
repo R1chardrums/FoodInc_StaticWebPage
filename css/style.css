@@ -1,0 +1,160 @@
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Courgette', cursive!important;
+	font-size: 22px!important;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lobster', cursive!important;
+}
+
+h1{
+	font-size: 44px!important;
+}
+
+h2{
+	font-size: 41px!important;
+}
+
+h3{
+	font-size: 38px!important;
+}
+
+h4{
+	font-size: 35px!important;
+}
+
+h5{
+	font-size: 32px!important;
+}
+
+h6{
+	font-size: 29px!important;
+}
+
+@media screen and (max-width: 320px) {
+	body{
+		font-size: 14px!important;
+	}
+
+	h1{
+		font-size: 34px!important;
+	}
+
+	h2{
+		font-size: 31px!important;
+	}
+
+	h3{
+		font-size: 28px!important;
+	}
+
+	h4{
+		font-size: 25px!important;
+	}
+
+	h5{
+		font-size: 22px!important;
+	}
+
+	h6{
+		font-size: 19px!important;
+	}
+
+	.logo-nav{
+		margin-right: 0px!important;
+	}
+
+	.logo-img{
+		width: 100px;
+	}
+}
+
+.top-bar{
+	background: rgba(255,0,0,0.7)!important;
+	color: white!important;
+}
+
+.top-bar a{
+	transition: 0.3s;
+	color: white;
+}
+
+.top-bar a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 413px){
+	header{
+		font-size: 18px!important;
+	}
+}
+
+@media screen and (max-width: 240px){
+	header{
+		font-size: 10px!important;
+	}
+}
+
+header button{
+	color: white!important;
+	border: 0!important;
+}
+
+.navbar{
+	background: rgba(0,0,0,0.7);
+}
+
+.nav-link{
+	height: 100%!important;
+	color: white!important;
+	padding-top: 18px!important;
+	padding-bottom: 18px!important;
+	transition: 0.3s;
+}
+
+@media screen and (max-width: 640px){
+	.nav-link{
+		color: white!important;
+		padding-top: 12px!important;
+		padding-bottom: 12px!important;
+		transition: 0.3s;
+	}
+}
+
+.nav-link:hover{
+	color: white!important;
+	background: rgb(225,0,0)!important;
+}
+
+footer{
+	background: rgb(165,0,0);
+}
+
+#footer{
+	color: white;
+}
+
+footer a{
+	transition: 0.3s;
+	color: white;
+}
+
+footer a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.footer-bottom{
+	background: rgb(135,0,0);
+}
+
+footer strong{
+	color: black;
+}
